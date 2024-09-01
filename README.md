@@ -4,5 +4,5 @@ Downloads of the kit is always in this repo.
 
 Game Link: https://www.roblox.com/games/18342777452/Pacifist-Kit
 
-# Update Log:
-[+] 1. Bug Fixes.
+# Update Log - v2.0.0-3:
+[+] 1. Small Revamp and bug fixes.
