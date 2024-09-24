@@ -13,3 +13,8 @@ Doors but Nostalgia:
 
 # Doors|Pacifist Kit: Update Log - v0.1:
 [+] 1. Beta.
+
+# Credits:
+MiniToon - Piggy
+LSPLASH - Doors
+nicorocks5555 - Rooms (which the pacifist doors kit uses the rooms engine.)
