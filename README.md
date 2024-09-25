@@ -8,8 +8,8 @@ Game Link:
 Piggy: https://www.roblox.com/games/18342777452/Pacifist-Kit
 Doors but Nostalgia: https://www.roblox.com/games/94950693675150/Doors-but-Nostalgia
 
-# Piggy|Pacifist Kit: Update Log - v2.0.0-4:
-[+] 1. Fixed a bug where you don't get stunned by a trap.
+# Piggy|Pacifist Kit: Update Log - v2.0.0-5:
+[+] 1. Fixed a bug where the item does not vanish after clicking.
 
 # Doors|Pacifist Kit: Update Log - v0.1:
 [+] 1. Beta.
