@@ -11,8 +11,8 @@ Doors but Nostalgia: https://www.roblox.com/games/94950693675150/Doors-but-Nosta
 # Piggy|Pacifist Kit: Update Log - v2.0.0-6:
 [+] 1. Revamped some systems.
 
-# Doors|Pacifist Kit: Update Log - v0.3:
-[+] 1. Added support for boss rooms.
+# Doors|Pacifist Kit: Update Log - v0.4:
+[+] 1. Added UNFINISHED door 36 seek chase, UNFINISHED door 50, UNFINISHED door 70, UNFINISHED door 100.
 
 # Credits:
 MiniToon - Piggy
