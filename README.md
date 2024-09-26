@@ -11,8 +11,8 @@ Doors but Nostalgia: https://www.roblox.com/games/94950693675150/Doors-but-Nosta
 # Piggy|Pacifist Kit: Update Log - v2.0.0-6:
 [+] 1. Revamped some systems.
 
-# Doors|Pacifist Kit: Update Log - v0.5:
-[+] 1. new.
+# Doors|Pacifist Kit: Update Log - v0.6:
+[+] 1. Fixed room generation.
 
 # Credits:
 MiniToon - Piggy
