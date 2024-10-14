@@ -8,12 +8,6 @@ Game Link:
 Piggy: https://www.roblox.com/games/18342777452/Pacifist-Kit
 Doors but Nostalgia: https://www.roblox.com/games/94950693675150/Doors-but-Nostalgia
 
-# Piggy|Pacifist Kit: Update Log - v2.0.0-7:
-[+] 1. Massive Bug Fix.
-
-# Doors|Pacifist Kit: Update Log - v0.6:
-[+] 1. Fixed room generation.
-
 # Credits:
 MiniToon - Piggy
 LSPLASH - Doors
