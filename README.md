@@ -15,4 +15,3 @@ Piggy: Pacifist Sketchy Kit:
 
 # Credits:
 MiniToon - Piggy
-LSPLASH - Doors
