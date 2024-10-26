@@ -22,6 +22,7 @@ MiniToon - Piggy
 The Pacifist+ is a Piggy that simulates the first release, please do not claim the game as your own or you will be cut off any updates.
 Downloads of the kit is always in this repo.
 Any folder in this github that ends with "+" is part of pacifist+
+Kit is not based off the actual pacifist kit (since it would be called steal- i mean borrowing)
 
 Created by FusionDevZ: https://www.roblox.com/users/4775253073/profile
 
