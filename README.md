@@ -8,9 +8,9 @@ Game Link:
 
 Piggy: Pacifist Chinese Kit: https://www.roblox.com/games/18342777452/Pacifist-Kit
 
-Piggy: Pacifist Global Kit:(No progress yet)
+Piggy: Pacifist Global Kit: (No progress yet)
 
-Piggy: Pacifist Classic Kit:(No progress yet)
+Piggy: Pacifist Classic Kit: (No progress yet)
 
 Piggy: Pacifist Sketchy Kit: (No progress yet)
 
