@@ -17,7 +17,7 @@ Piggy: Pacifist Sketchy Kit: (No progress yet)
 # Credits:
 MiniToon - Piggy
 
-# Piggy Pacifist+
+# Piggy: Pacifist+
 
 The Pacifist Kit is a Piggy that simulates the first release, please do not claim the game as your own or you will be cut off any updates.
 Downloads of the kit is always in this repo.
