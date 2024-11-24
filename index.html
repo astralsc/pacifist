@@ -1,0 +1,170 @@
+<!DOCTYPE html><html lang="en"><head>
+    <meta charset="UTF-8">
+    <title>Pacifist Setup</title>
+    <link rel="shortcut icon" href="images/SHORTCUT.png" type="image/x-icon">
+    <style>
+        body {
+            background-color: black;
+            color: white;
+            font-family: Arial, sans-serif;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            min-height: 100vh;
+            margin: 0;
+            padding: 20px;
+        }
+
+        .ascii-art {
+            font-family: monospace;
+            white-space: pre;
+            font-size: 12px;
+            text-align: center;
+            margin-bottom: 30px;
+        }
+
+        .instructions {
+            margin-bottom: 20px;
+            text-align: center;
+        }
+
+        .download-list {
+            list-style: none;
+            padding: 0;
+            width: 100%;
+            max-width: 500px;
+            margin-bottom: 30px;
+        }
+
+        .download-item {
+            padding: 10px;
+            margin: 5px 0;
+            background-color: #222;
+            border: 1px solid #444;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s;
+        }
+
+        .download-item:hover {
+            background-color: #333;
+        }
+
+        .download-item.selected {
+            background-color: #444;
+            border-color: #666;
+        }
+
+        #copyButton {
+            padding: 10px 20px;
+            background-color: #444;
+            border: none;
+            color: white;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s;
+        }
+
+        #copyButton:hover {
+            background-color: #555;
+        }
+
+        #copyButton:disabled {
+            background-color: #666;
+            cursor: not-allowed;
+        }
+
+        #notification {
+            position: fixed;
+            top: 20px;
+            background-color: #444;
+            padding: 10px 20px;
+            border-radius: 5px;
+            display: none;
+        }
+    </style>
+</head>
+<body>
+    <div class="ascii-art">
+██████╗ ██╗ ██████╗  ██████╗██╗   ██╗    ███████╗███████╗████████╗██╗   ██╗██████╗ 
+██╔══██╗██║██╔════╝ ██╔════╝╚██╗ ██╔╝    ██╔════╝██╔════╝╚══██╔══╝██║   ██║██╔══██╗
+██████╔╝██║██║  ███╗██║  ███╗╚████╔╝     ███████╗█████╗     ██║   ██║   ██║██████╔╝
+██╔═══╝ ██║██║   ██║██║   ██║ ╚██╔╝      ╚════██║██╔══╝     ██║   ██║   ██║██╔═══╝ 
+██║     ██║╚██████╔╝╚██████╔╝  ██║       ███████║███████╗   ██║   ╚██████╔╝██║     
+╚═╝     ╚═╝ ╚═════╝  ╚═════╝   ╚═╝       ╚══════╝╚══════╝   ╚═╝    ╚═════╝ ╚═╝     
+    </div>
+
+    <div class="instructions">
+        Do not pirate the paid editions or the FBI will hunt you down.
+    </div>
+
+    <ul class="download-list" id="downloadList">
+        <li class="download-item" data-link="https://github.com/fdz6/pacifist/releases/tag/pacifist_chinese_edition">
+            1. Piggy: Pacifist Kit (Chinese Edition)
+        </li>
+        <li class="download-item" data-link="https://github.com/fdz6/pacifist/releases/tag/pacifist_global_edition">
+            2. Piggy: Pacifist Kit (Global Edition - B1 - Early 2021)
+        </li>
+        <li class="download-item" data-link="https://github.com/fdz6/pacifist/releases/tag/pacifist_global_edition">
+            3. Piggy: Pacifist Kit (Global Edition - B2 - Early 2021)
+        </li>
+        <li class="download-item" data-link="https://github.com/fdz6/pacifist/releases/tag/pacifist_global_edition">
+            4. Piggy: Pacifist Kit (Global Edition - B1 - Mid 2021)
+        </li>
+        <li class="download-item" data-link="https://github.com/fdz6/pacifist/releases/tag/pacifist_global_edition">
+            5. Piggy: Pacifist Kit (Global Edition - B2 - Mid 2021)
+        </li>
+        <li class="download-item" data-link="https://www.roblox.com/game-pass/980614616/Decay-Bill">
+            6. Piggy: Pacifist Kit (B1 - Late 2021) - R$ 499 - DM @pacifistpayment on DC
+        </li>
+    </ul>
+
+    <button id="copyButton" disabled="">Copy Link</button>
+    <div id="notification">Copied to Clipboard</div>
+
+    <script>
+        const downloadItems = document.querySelectorAll('.download-item');
+        const copyButton = document.getElementById('copyButton');
+        const notification = document.getElementById('notification');
+        let selectedItem = null;
+
+        downloadItems.forEach(item => {
+            item.addEventListener('click', () => {
+                // Remove selection from previous item
+                if (selectedItem) {
+                    selectedItem.classList.remove('selected');
+                }
+                
+                // Select new item
+                item.classList.add('selected');
+                selectedItem = item;
+                copyButton.disabled = false;
+            });
+        });
+
+        copyButton.addEventListener('click', async () => {
+            if (!selectedItem) return;
+
+            const link = selectedItem.getAttribute('data-link');
+            
+            try {
+                await navigator.clipboard.writeText(link);
+                
+                // Show notification
+                notification.style.display = 'block';
+                copyButton.disabled = true;
+                copyButton.textContent = 'Copied to Clipboard';
+                
+                // Hide notification after 2 seconds
+                setTimeout(() => {
+                    notification.style.display = 'none';
+                    copyButton.disabled = false;
+                    copyButton.textContent = 'Copy Link';
+                }, 2000);
+            } catch (err) {
+                alert('Error copying the link, please try again later.');
+            }
+        });
+    </script>
+
+</body></html>
