@@ -20,7 +20,7 @@ MiniToon - Piggy
 # Piggy: Pacifist+
 
 The Pacifist+ is a Piggy that simulates the first release, please do not claim the game as your own or you will be cut off any updates.
-Downloads of the kit is always in this repo. Any folder in this github that ends with "+" is part of pacifist+, The Kit is not based off the actual pacifist kit (since it would be buggy)
+Downloads of the kit is always in this repo. Any folder in this github that ends with "+" is part of pacifist+, The Kit is based off pacifist.
 
 Created by FusionDevZ: https://www.roblox.com/users/4775253073/profile
 
@@ -28,6 +28,6 @@ Pacifist+ Owner: andreafashion2014
 
 Game Link:
 
-Piggy: Pacifist+ Link: https://www.roblox.com/games/104515926366821/Piggy-Pacifist
+Piggy: OLD "Pacifist+" Link: https://www.roblox.com/games/104515926366821/Piggy-Pacifist
 
-Piggy: Pacifist+ Using Pacifist Kit: (not until fully stable)
+Piggy: NEW Pacifist+ Link [INDEV]: https://www.roblox.com/games/75621344418839/Piggy-But-Nostalgic-LITE
